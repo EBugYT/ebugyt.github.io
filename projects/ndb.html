@@ -9,11 +9,16 @@
       href="//unpkg.com/bootstrap@5.0.2/dist/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="/style.css" />
+    <script>
+      function home() {
+        location.href = "/";
+      }
+    </script>
   </head>
   <body>
     <div class="container-fluid p-5 sticky-top bg-dark text-white">
       <center>
-        <h1>Ján Pšenák</h1>
+        <h1 onclick="home()" style="cursor: pointer;">Ján Pšenák</h1>
         <div style="display:inline;">
           <a class="gh" href="//github.com/ebugyt"
             ><svg
@@ -44,17 +49,32 @@
     </center>
     <div class="container p-5 my-5 border border-secondary">
       <h2>Prečo</h2>
-      <p>Databázy sa ťažko používajú. Väčšina potrebuje server (napr mongodb). Potom máme sqlite3, ale to je sql databáza a sql je náročný pre začiatočníkov.</p>
-      <p>Preto som si dal challenge že naspeedrunujem tvorbu nosql databázy pre začiatočníkov, podarilo sa mi to za 4:08.</p>
-      <p>Najprv to začalo ako vtip ale potom som z toho urobil jednoduchú databázu ktorá sa dá využiť aj v prototypoch na programy.</p>
+      <p>
+        Databázy sa ťažko používajú. Väčšina potrebuje server (napr mongodb).
+        Potom máme sqlite3, ale to je sql databáza a sql je náročný pre
+        začiatočníkov.
+      </p>
+      <p>
+        Preto som si dal challenge že naspeedrunujem tvorbu nosql databázy pre
+        začiatočníkov, podarilo sa mi to za 4:08.
+      </p>
+      <p>
+        Najprv to začalo ako vtip ale potom som z toho urobil jednoduchú
+        databázu ktorá sa dá využiť aj v prototypoch na programy.
+      </p>
     </div>
     <div class="container p-5 my-5 border border-secondary">
       <h2>UPOZORNENIE</h2>
-      <p>Táto databáza je určená pre prototypy, pri produkcí môže viesť k prípadom ako lahšie hacknutý server.</p>
+      <p>
+        Táto databáza je určená pre prototypy, pri produkcí môže viesť k
+        prípadom ako lahšie hacknutý server.
+      </p>
     </div>
     <div class="container p-5 my-5 border border-secondary">
       <h2>Chcete ju napriek tomu skúsiť?</h2>
-      <a href="https://github.com/EBugYT/nulldb" class="btn btn-primary">Github projektu</a>
+      <a href="https://github.com/EBugYT/nulldb" class="btn btn-primary"
+        >Github projektu</a
+      >
     </div>
     <script src="//unpkg.com/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
   </body>
