@@ -1,17 +1,4 @@
-@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
-.si .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-  }
-
-.si .fa:hover {
-    opacity: 0.7;
-  }
-
-.si .fa-github {
-    background: #000000;
-    color: white;
-  }
+.cb1 {
+  background-color: #1d1d1d;
+  color: #efefef;
+}
