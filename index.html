@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="//unpkg.com/bootstrap@5.0.2/dist/css/bootstrap.min.css" />
   <link rel="stylesheet" href="/style.css" />
   <script>
+    function secretfunction() {
+      document.getElementById("sl").innerText = "Hey"
+    }
     function home() {
       location.href = "/";
     }
@@ -39,6 +42,7 @@
 
   <div class="container p-5 my-5 border border-secondary">
     <h2>Projekty</h2>
+    <a href="/secret.html" onfocus="secretfunction()" id="sl"></a>
     <hr />
     <h2>NullDB</h2>
     <p>Databáza pre prototypy web stránok a iných programov</p>
@@ -53,7 +57,12 @@
     <hr>
     <h2>Pacman3D</h2>
     <p>3D hra inšpirovaná hrou Pacman</p>
-    
+    <a href="https://ebug.itch.io/pacman3d" target="_blank" class="btn btn-primary">Hrať</a>
+    <hr>
+    <h2>Zimný kryštál</h2>
+    <p>Game Jam hra urobená na <a href="https://hemisfera.sk/vianocny-gamejam-2023/">Vianočný GameJam od Skyro</a> na tému ľadové blúsidko
+    </p>
+    <a href="https://gamejolt.com/games/zk1/861785" target="_blank" class="btn btn-primary">Hrať</a>
   </div>
   <script src="//unpkg.com/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
 </body>
